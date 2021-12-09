@@ -1,3 +1,13 @@
+# GifExpertApp
+
+Aplicación GifExpertApp del curso de react de Fernando Herrera en Udemy.
+
+https://www.udemy.com/course/react-cero-experto/learn/lecture/19751398#questions
+
+A partir de la sección 6
+
+#
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
