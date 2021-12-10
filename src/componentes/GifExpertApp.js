@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { AddCategory } from './AddCategory';
 
 export const GifExpertApp = () => {
   //const categories = ['Categoría 1', 'Categoría 2', 'Categoría 3'];
@@ -8,14 +9,14 @@ export const GifExpertApp = () => {
     'Categoría 3',
   ]);
 
-  const anadirCategoria = () => {
-    setCategories([...categories, 'Categoría 4']);
-  };
+  // const anadirCategoria = () => {
+  //   setCategories([...categories, 'Categoría 4']);
+  // };
   return (
     <div className='container'>
       <h1>GifExpertApp</h1>
+      <AddCategory setCategories={setCategories} />
       <hr />
-      <button onClick={anadirCategoria}>Agregar</button>
       <ul>
         {categories.map((cat) => {
           return <li key={cat}>{cat}</li>;
