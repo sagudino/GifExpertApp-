@@ -1,25 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { getGifs } from '../helpers/getGifs';
+import { GifGridItem } from './GifGridItem';
 
 export const GifGrid = ({ category }) => {
-  const giphyApiKey = '1yXTHElz01qs8MwUzaTpOx5DYV5E0QxT';
-  const giphySearchEndPoint = 'https://api.giphy.com/v1/gifs/search';
-  const gifGrid = async () => {
-    const searchEndPoint = `${giphySearchEndPoint}?q=Julio+Iglesias&limit=10&api_key=${giphyApiKey}`;
-    const respuesta = await fetch(searchEndPoint);
-    const { data } = await respuesta.json();
-    const gifs = data.map((img) => {
-      return {
-        id: img.id,
-        title: img.title,
-        url: img.images.downsized_medium.url,
-      };
+  const [images, setImages] = useState([]);
+  // solo se ejecuta cuando el componente se renderiza la primera vez
+  useEffect(() => {
+    getGifs(category).then((imgs) => {
+      setImages(imgs);
     });
-    console.log(gifs);
-  };
-  gifGrid();
+  }, [category]);
+
+  //getGifs();
   return (
     <>
       <h3>{category}</h3>
+      <div className='card-grid'>
+        {images.map((image) => (
+          <GifGridItem key={image.id} {...image} />
+        ))}
+      </div>
     </>
   );
 };
