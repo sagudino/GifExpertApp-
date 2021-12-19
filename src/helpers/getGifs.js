@@ -1,7 +1,7 @@
 export const getGifs = async (category) => {
   const giphyApiKey = '1yXTHElz01qs8MwUzaTpOx5DYV5E0QxT';
   const giphySearchEndPoint = 'https://api.giphy.com/v1/gifs/search';
-  const limit = 50;
+  const limit = 10;
 
   const searchEndPoint = `${giphySearchEndPoint}?q=${encodeURI(
     category
