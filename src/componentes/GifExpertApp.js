@@ -12,6 +12,17 @@ export const GifExpertApp = () => {
   return (
     <div className='container'>
       <h1>GifExpertApp</h1>
+      <p>
+        Buscador de gifs utilizando el{' '}
+        <a
+          href='https://developers.giphy.com/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          API de Giphy
+        </a>
+        .
+      </p>
       <AddCategory setCategories={setCategories} />
       <hr />
       <ul>

@@ -15,7 +15,12 @@ export const AddCategory = ({ setCategories }) => {
   };
   return (
     <form onSubmit={handleSubmit}>
-      <input type='text' value={inputValue} onChange={inputChange}></input>
+      <input
+        type='text'
+        value={inputValue}
+        onChange={inputChange}
+        placeholder='Busca un gif y pulsta intro...'
+      ></input>
     </form>
   );
 };
