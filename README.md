@@ -4,10 +4,11 @@ Aplicación GifExpertApp del curso de react de Fernando Herrera en Udemy.
 
 https://www.udemy.com/course/react-cero-experto/learn/lecture/19751398#questions
 
-A partir de la sección 6
+Publicado en [https://sagudino.github.io/GifExpertApp-/](GitHubPages)
 
 #
 
+<!--
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -77,4 +78,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
