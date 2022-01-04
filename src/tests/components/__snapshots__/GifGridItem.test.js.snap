@@ -6,7 +6,7 @@ exports[`Pruebas en GifGridItem Debe de mostra el componente correctamente 1`] =
 >
   <img
     alt="Un título"
-    src="https://www.google.com"
+    src="https://www.google.com/imagen.jpg"
   />
   <p>
     Un título
