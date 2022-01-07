@@ -10,7 +10,7 @@ describe('Pruebas en GifExpertApp', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  test('Debe mosgrar una lista de categorías', async () => {
+  test('Debe mostrar una lista de categorías', async () => {
     const categories = ['Mazinger Z', 'Dragon Ball'];
     const wrapper = shallow(<GifExpertApp defaultCategories={categories} />);
     expect(wrapper).toMatchSnapshot();
