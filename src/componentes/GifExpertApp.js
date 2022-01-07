@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { AddCategory } from './AddCategory';
 import { GifGrid } from './GifGrid';
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({ defaultCategories = [] }) => {
   //const categories = ['Categoría 1', 'Categoría 2', 'Categoría 3'];
-  const [categories, setCategories] = useState(['one punch']);
+  const [categories, setCategories] = useState(defaultCategories);
 
   // const anadirCategoria = () => {
   //   setCategories([...categories, 'Categoría 4']);
