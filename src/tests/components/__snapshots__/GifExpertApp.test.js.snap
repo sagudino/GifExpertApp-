@@ -1,41 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pruebas en GifExpertApp Debe mosgrar una lista de categorías 1`] = `
-<div
-  className="container"
->
-  <h1>
-    GifExpertApp
-  </h1>
-  <p>
-    Buscador de gifs utilizando el
-     
-    <a
-      href="https://developers.giphy.com/"
-      rel="noreferrer"
-      target="_blank"
-    >
-      API de Giphy
-    </a>
-    .
-  </p>
-  <AddCategory
-    setCategories={[Function]}
-  />
-  <hr />
-  <ul>
-    <GifGrid
-      category="Mazinger Z"
-      key="Mazinger Z"
-    />
-    <GifGrid
-      category="Dragon Ball"
-      key="Dragon Ball"
-    />
-  </ul>
-</div>
-`;
-
 exports[`Pruebas en GifExpertApp Debe mostrar una lista de categorías 1`] = `
 <div
   className="container"
