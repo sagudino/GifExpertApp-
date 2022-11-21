@@ -1,6 +1,6 @@
 # GifExpertApp
 
-Aplicación GifExpertApp del curso de react de Fernando Herrera en Udemy. v2
+Aplicación GifExpertApp del curso de react de Fernando Herrera en Udemy. v2 asdfasdfjalsdfkjkasdfjñlasdfj
 https://www.udemy.com/course/react-cero-experto/learn/lecture/19751398#questions
 
 Publicado en GitHubPages: [https://sagudino.github.io/GifExpertApp-/]
